@@ -31,7 +31,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/python-app:latest
-            ghcr.io/${{ github.repository_owner }}/python-app:${{ github.event.release.tag_name }}
+            ghcr.io/${{ github.repository_owner }}/telegram-ai-translate:latest
+            ghcr.io/${{ github.repository_owner }}/telegram-ai-translate:${{ github.event.release.tag_name }}
           cache-from: type=gha
           cache-to: type=gha,mode=max

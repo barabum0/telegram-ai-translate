@@ -1,6 +1,6 @@
 [tool.poetry]
 package-mode = false
-name = "python-template"
+name = "telegram-ai-translate"
 description = "Description"
 authors = ["Roman Poltorabatko <r.m.poltorabatko@gmail.com>"]
 license = "MIT"
